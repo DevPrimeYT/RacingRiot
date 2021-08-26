@@ -1,4 +1,4 @@
-Javascript Pseudo 3D Racer
+Javascript 3D RacingRiot
 ==========================
 
 An Outrun-style pseudo-3d racing game in HTML5 and Javascript
@@ -14,12 +14,6 @@ Incrementally built up in 4 parts:
  * play the [hills demo](http://codeincomplete.com/projects/racer/v3.hills.html)
  * play the [final version](http://codeincomplete.com/projects/racer/v4.final.html)
 
-With detailed descriptions of how each part works:
-
- * read more about [v1 - straight roads](http://codeincomplete.com/posts/2012/6/23/javascript_racer_v1_straight)
- * read more about [v2 - curves](http://codeincomplete.com/posts/2012/6/24/javascript_racer_v2_curves/)
- * read more about [v3 - hills](http://codeincomplete.com/posts/2012/6/26/javascript_racer_v3_hills/)
- * read more about v4 - final (coming soon)
 
 A note on performance
 =====================
@@ -49,13 +43,10 @@ is not intended to demonstrate javascript techniques or best practices. In fact,
 keep it simple to understand it embeds the javascript for each example directly in the HTML
 page (horror!) and, even worse, uses global variables and functions (OMG!).
 
-If I was building a real game I would have much more structure and organization to the
-code, but since its just a racing game tech demo, I have elected to [KISS](http://en.wikipedia.org/wiki/KISS_principle).
-
 FUTURE
 ======
 
-It's quite astounding what it takes to actually [finish](http://codeincomplete.com/posts/2011/9/21/defining_finished/)
+It's quite astounding what it takes to actually finish
 a game, even a simple one. And this is not a project that I plan on polishing into a finished state. It should
 really be considered just how to get started with a pseudo-3d racing game.
 
@@ -95,17 +86,4 @@ Related Links
 
  * [Lou's Pseudo-3d Page](http://www.extentofthejam.com/pseudo/) - high level how-to guide
  * [Racer 10k](https://github.com/onaluf/RacerJS) - another javascript racing game
-
-License
-=======
-
-[MIT](http://en.wikipedia.org/wiki/MIT_License) license.
-
->> NOTE: the music tracks included in this project are royalty free resources paid for and licensed
-from [Lucky Lion Studios](http://luckylionstudios.com/). They are licensed ONLY for use in this
-project and should not be reproduced.
-
->> NOTE: the sprite graphics are placeholder graphics [borrowed](http://pixel.garoux.net/game/44) from the old
-genesis version of outrun and used here as teaching examples. If there are any pixel artists out there who want to 
-provide original art to turn this into a real game please get in touch!
 
