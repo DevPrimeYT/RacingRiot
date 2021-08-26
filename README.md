@@ -1,19 +1,9 @@
 Javascript 3D RacingRiot
 ==========================
 
-An Outrun-style pseudo-3d racing game in HTML5 and Javascript
+An Outrun-style pseudo-3d racing game in HTML5 and Javascript, this version made by Hadi. J.
 
- * [play the game](http://codeincomplete.com/projects/racer/v4.final.html)
- * view the [source](https://github.com/jakesgordon/javascript-racer)
- * read about [how it works](http://codeincomplete.com/posts/2012/6/22/javascript_racer/)
-
-Incrementally built up in 4 parts:
-
- * play the [straight road demo](http://codeincomplete.com/projects/racer/v1.straight.html)
- * play the [curves demo](http://codeincomplete.com/projects/racer/v2.curves.html)
- * play the [hills demo](http://codeincomplete.com/projects/racer/v3.hills.html)
- * play the [final version](http://codeincomplete.com/projects/racer/v4.final.html)
-
+ * [play the game](https://lightorg.neocities.org/)
 
 A note on performance
 =====================
@@ -26,7 +16,7 @@ and the draw distance to scale to fit your machine.
 Currently supported browsers include:
 
  * Firefox (v12+) works great, 60fps at high res - Nice!
- * Chrome (v19+) works great, 60fps at high res... provided you dont have a bad GPU driver
+ * Chrome (v19+) works great, 60fps at high res... provided you don't have a bad GPU driver
  * IE9 - ok, 30fps at medium res... not great, but at least it works
 
 The current state of mobile browser performance is pretty dismal. Dont expect this to be playable on
@@ -38,7 +28,7 @@ any mobile device.
 A note on code structure
 ========================
 
-This project happens to be implemented in javascript (because its easy for prototyping) but
+This project is implemented in javascript (because its easy for prototyping) but
 is not intended to demonstrate javascript techniques or best practices. In fact, in order to
 keep it simple to understand it embeds the javascript for each example directly in the HTML
 page (horror!) and, even worse, uses global variables and functions (OMG!).
@@ -81,9 +71,4 @@ If we were to try to turn it into a real game we would have to consider:
  * ...
  * ...
 
-Related Links
-=============
-
- * [Lou's Pseudo-3d Page](http://www.extentofthejam.com/pseudo/) - high level how-to guide
- * [Racer 10k](https://github.com/onaluf/RacerJS) - another javascript racing game
 
